@@ -1,2 +1,7 @@
-# Worlds to protect
-Worlds= ["world", "Spawn", "PvP"]
+# Worlds to protect. These are case sensitive
+world: true
+Spawn: true
+PvP: true
+
+# Message to send to players when they try to edit protected worlds
+Message: "You cannot edit this world!"
