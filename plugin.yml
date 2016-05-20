@@ -1,0 +1,17 @@
+name: PerWorldProtect
+api: 2.0.0
+main: Blubberboy333\PerWorldProtect\Main
+version: 1.0.0
+commands:
+    pwp:
+        usage: /pwp <world>
+        description: Adds a world to protect
+        permission: pwp.cmd
+permissions:
+    pwp:
+        default: false
+        description: Allows the player to use all of the PerWorldProtect features
+        children:
+            pwp.cmd:
+                default: op
+                description: Allows the player to use the PWP command
