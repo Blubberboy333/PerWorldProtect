@@ -1,2 +1,2 @@
 # PerWorldProtect
-Stop players from editing certain worlds. This plugi is not finished yet
+Stop players from editing certain worlds. This plugin has not been tested.
